@@ -1,0 +1,17 @@
+{
+    "name": "@rajmohan_dev/genrateuuid",
+    "version": "1.0.0",
+    "description": "gerate a uuid",
+    "license": "MIT",
+    "repository": "rajmohan6268/genrateuuid",
+    "main": "index.js",
+    "keywords": [
+        "uuid",
+        "npm",
+        "package",
+        "rajmohan6268"
+    ],
+    "dependencies": {
+        "crypto": "^1.0.1"
+    }
+}
