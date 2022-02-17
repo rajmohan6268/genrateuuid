@@ -5,3 +5,8 @@ module.exports = function newuuid() {
     (c ^ (crypto.randomBytes(1)[0] & (15 >> (c / 4)))).toString(16)
   );
 };
+
+/**    Example useage to genrate uuid
+ *const newuuid = require("@rajmohan_dev/genrateuuid");
+  console.log("uuid==>", newuuid());
+*/
